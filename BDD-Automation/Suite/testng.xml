@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="GitHub Automation Suite"
+	annotations="JDK" parallel="tests">
+
+	<test name="Github WebPage Validation">
+		<classes>
+			<class name="CucumberRunner.Runner" />
+		</classes>
+	</test>
+
+</suite>

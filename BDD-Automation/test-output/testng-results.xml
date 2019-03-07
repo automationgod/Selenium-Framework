@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GitHub Automation Suite" duration-ms="37138" started-at="2019-03-03T07:42:38Z" finished-at="2019-03-03T07:43:15Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberRunner.Runner@1ab2ddb]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Github WebPage Validation" duration-ms="37138" started-at="2019-03-03T07:42:38Z" finished-at="2019-03-03T07:43:15Z">
+      <class name="CucumberRunner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:CucumberRunner.Runner@1ab2ddb]" name="setUpClass" is-config="true" duration-ms="635" started-at="2019-03-03T13:12:38Z" finished-at="2019-03-03T13:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberRunner.Runner@1ab2ddb]" name="feature" duration-ms="35992" started-at="2019-03-03T13:12:39Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-03-03T13:13:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[this feature is about github application validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:CucumberRunner.Runner@1ab2ddb]" name="tearDownClass" is-config="true" duration-ms="265" started-at="2019-03-03T13:13:15Z" finished-at="2019-03-03T13:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberRunner.Runner -->
+    </test> <!-- Github WebPage Validation -->
+  </suite> <!-- GitHub Automation Suite -->
+</testng-results>
